@@ -1,0 +1,31 @@
+{
+    "layout": {
+        "type": "layout",
+        "pages": ["common"],
+        "common": {
+            "type": "page",
+            "title": "Common",
+            "sections": ["common_s"]
+        },
+        "common_s": {
+            "type": "section",
+            "title": "General",
+            "keys": ["birth_date", "life_expectancy", "use_black_icon"]
+        }
+    },
+    "birth_date": {
+		"type": "entry",
+		"default": "1985-09-26",
+		"description": "Birth Date (yyyy-mm-dd)"
+	},
+    "life_expectancy": {
+        "type": "entry",
+        "default": "70",
+        "description": "Your life expectancy"
+    },
+    "use_black_icon": {
+        "type": "switch",
+        "default": false,
+        "description": "Use black icon"
+    }
+}

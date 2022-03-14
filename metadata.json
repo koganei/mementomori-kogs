@@ -1,0 +1,7 @@
+{
+    "uuid": "mementomori@kogs",
+    "name": "Memento Mori",
+    "description": "Shows you a countdown to your death.",
+    "icon": "force-exit",
+    "max-instances": "-1"
+}
